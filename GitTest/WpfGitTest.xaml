@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="WpfGitTest" Height="300" Width="300">
     <Grid>
-        <Label Content="Kennismaking met Git" HorizontalAlignment="Left" Margin="25,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.962,1.135" Width="130"/>
+        <Label Content="Kennismaking met Git" HorizontalAlignment="Left" Margin="62,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.962,1.135" Width="130"/>
+        <Button x:Name="btnWelkom" Content="Welkom" HorizontalAlignment="Left" Margin="90,41,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox x:Name="lstWelkom" HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="100" Margin="78,66,0,0"/>
 
     </Grid>
 </Window>
